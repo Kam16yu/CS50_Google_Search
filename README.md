@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Kam16yu
 - 👀 I’m interested in programming 
-- 🌱 I’m currently learning Python, neural networks
+- 🌱 I’m currently learning Python, neural networks, web
 - 💞️ I’m looking to collaborate on programming
 - 📫 How to reach me ...
 
