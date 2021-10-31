@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="advsearch.css">
+    </head>
+    <body>
+        <div id="search-main" class="link"
+             style= "text-align: right;padding: 5px; font-size: 20px;">
+            <a href ="Search.html" style= "text-decoration: none; color: black;">Пошук</a>
+        </div>
+        <div>
+            <h3>Розширений пошук</h3>
+        </div>
+        <div class="searchfields">
+            <form action="https://www.google.com/search" method="get" role="search">
+            <table>
+            <tr>
+                <th>Знайти сторінки, що містять...</th>
+                <th></th>
+                <th>Як це зробити в полі пошуку</th>
+            </tr>
+            <tr>
+                <td>усі ці слова:</td>
+                <td><input value="" type="text" name="as_q"></td>
+                <td>Введіть важливі слова: триколірний рет-тер’єр</td>
+            </tr>
+            <tr>
+                <td>точне слово або фразу:</td>
+                <td><input value="" type="text" name="as_epq"></td>
+                <td>Візьміть точні слова в лапки: "рет-тер’єр"</td>
+            </tr>
+            <tr>
+                <td>будь-яке з цих слів:</td>
+                <td><input value="" name="as_oq" type="text"></td>
+                <td>Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</td>
+            </tr>
+            <tr>
+                <td>жодне з цих слів:</td>
+                <td><input value="" name="as_eq" type="text"></td>
+                <td>Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</td>
+            </tr>
+            </table>
+            <div class="buttonsearch">
+            <input type="submit" value="Розширений пошук">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>

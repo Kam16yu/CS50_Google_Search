@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="search-main" class="link"
+             style= "text-align: right;padding: 2px; font-size: 20px;">
+            <a href ="Search.html" style= "text-decoration: none; color: black;">Пошук</a>
+        </div>
+        <div id="mainsearch" class="search"
+             style= "text-align:center;  position: relative; top: 100px">
+            <div class="">
+            <img src="Searchimg.jpg" alt="logo"/>
+            </div>
+            <form action="https://google.com/search" method="GET" role="search" name="gs">
+                <input name="hl" value="uk" type="hidden">
+                <input name="tbm" value="isch" type="hidden">
+            <div id="inputsearch">
+            <input class="img search" maxlength="2048" name="q" type="text" role="combobox" title="Search" value=""
+                   style="border-width: 1px; border-radius: 10px; width: 400px; height: 25px;">
+            </div>
+            <div id="buttonsearch" style= "padding: 10px;">
+            <input type="submit" value="Шукати зображення">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
