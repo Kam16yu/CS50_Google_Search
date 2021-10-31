@@ -4,7 +4,7 @@ font-family: Arial, sans-serif;
 }
 .top {
 text-align: right;
-padding: 2px;
+font-size: 20px;
 }
 .top a{
 text-decoration: none;
@@ -16,22 +16,14 @@ font-size: 16px;
 text-decoration: underline;
 color: black;
 }
-.simage {
-position: absolute;
-top: 20%;
-left: 40%;
+.search {
+text-align: center;
+position: relative;
+top: 100px;
 }
 input[type="text"]{
-position: absolute;
-top: 35%;
-left: 38%;
 border-radius: 10px;
 width: 400px;
-background: #ffffff !important;
+background: #ffffff;
 height: 20px;
-}
-.buttonsearch{
-position: absolute;
-top: 40%;
-left: 44%;
 }
